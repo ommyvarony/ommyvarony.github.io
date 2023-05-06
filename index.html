@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="index.css">
+	<meta charset="UTF-8">
+	<title>My CV Website</title>
+	<style>
+		
+	</style>
+</head>
+<body>
+	<header>
+		<h1>OMMYVARORYTZ</h1><br>
+		<img src="ommy.jpeg"><br>
+		<p>Web Developer</p>
+	</header>
+
+	<section>
+		<h2><center><i>PERSONAL INFORMATION</i></center></h2>
+		<table>
+			<tr>
+				<th>Name</th>
+				<td>Omary Hamadi</td>
+			</tr>
+			<tr>
+				<th>Email</th>
+				<td>ommyvaronytz1@gmail.com</td>
+			</tr>
+			<tr>
+				<th>Phone</th>
+				<td>0672723406</td>
+			</tr>
+			<tr>
+				<th>Address</th>
+				<td>2710 Main St, Tunguu, zanzibar</td>
+			</tr>
+			<tr>
+				<th>Language</th>
+				<td>Swahili language</td>
+			</tr>
+			<tr>
+				<th>Gender</th>
+				<td>Male</td>
+			</tr>
+			<tr>
+				<th>WebLink</th>
+				<td><a href="#">ommyvarony.github.io</a></td>
+			</tr>
+		</table>
+	</section>
+		<section>
+			<h2><center><i>EDUCATIONAL BACKGROUND</i></center></h2>
+	 <table>
+		<tr>
+			<th>2008-2014</th>
+			<td>Reginald mengi primary School</td>
+		</tr>
+		<tr>
+			<th>2015-2018</th>
+			<td>Vudoi secondary school</td> 
+		</tr>
+		<tr>
+			<th>2019-2021</th>
+			<td>Vudoi High School</td>
+		</tr>
+		<tr>
+			<th>2021-2023</th>
+		<td>State university of Zanzibar</td>
+		</tr>
+	 </table>
+	</section>
+
+	<section>
+		<h2><center><i>WORKING EXPERIENCE</i></center></h2><ul>
+			<li>Web Designer
+</li>
+<li>IT programming</li>
+<li>Computer maintainance</li>
+<li>Network security</li>
+</ul>
+</section>
+	<section>
+<h2><center><i>HOBIES</i></center></h2><ul>
+	<li>Reading books
+</li>
+<li>Playing games</li>
+<li>writting codes</li>
+<li>Watching movies</li>
+</ul>
+</section>
+<header>
+      <h1><center><i>CONTACT US</i></center></h1>
+    </header>
+
+    <main>
+      <section id="map">
+        <h2><center><i>MY LOCATION</i></center></h2>
+        <iframe src="<iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20023.59770187212!2d-122.4085575942725!3d37.78308629407929!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zN8KwMTInNDguOCJOIDEyMjLCsDE3JzE3LjkiRQ!5e0!3m2!1sen!2sus!4v1652097891235!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </section>
+
+      <section id="contact-form">
+        <h2><center><i>CONTACT US</i></center></h2>
+        <form onsubmit="return storeFormData()">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" placeholder="enter your name" required><br>
+
+          <label for="address">Address:</label>
+          <input type="text" id="address" name="address" placeholder="enter your address" required><br>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="enter your email" required><br>
+
+          <label for="comments">Comments:</label>
+          <textarea id="comments" name="comments" placeholder="any comment"></textarea><br>
+
+          <input type="submit" value="Submit">
+        </form>
+      </section>
+
+      <section id="login-form">
+        <h2><center><i>LOGIN TO VIEW CONTACT INFORMATION</i></center></h2>
+        <form onsubmit="return retrieveFormData()">
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required><br>
+
+          <input type="submit" value="Login">
+        </form>
+
+        <div id="contact-info">
+          <h3><center>Contact Information</center></h3>
+          <ul id="contact-list"></ul>
+        </div>
+      </section>
+    </main>
+</body>
+</html>
